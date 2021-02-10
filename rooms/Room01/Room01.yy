@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_swingstage","path":"objects/o_swingstage/o_swingstage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":176.0,"resourceVersion":"1.0","name":"inst_73379CE3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_admin_obj","path":"objects/o_admin_obj/o_admin_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":240.0,"y":216.0,"resourceVersion":"1.0","name":"inst_49D0625A","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_Front","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_ralph","path":"objects/o_ralph/o_ralph.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":48.0,"resourceVersion":"1.0","name":"inst_3B110C6F","tags":[],"resourceType":"GMRInstance",},
@@ -70,6 +71,7 @@
     {"name":"inst_28B5319C","path":"rooms/Room01/Room01.yy",},
     {"name":"inst_EEDBB8D","path":"rooms/Room01/Room01.yy",},
     {"name":"inst_73379CE3","path":"rooms/Room01/Room01.yy",},
+    {"name":"inst_49D0625A","path":"rooms/Room01/Room01.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"s_swingstage","path":"sprites/s_swingstage/s_swingstage.yy",},"order":6,},
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},"order":3,},
+    {"id":{"name":"o_admin_obj","path":"objects/o_admin_obj/o_admin_obj.yy",},"order":6,},
     {"id":{"name":"s_felix_idle","path":"sprites/s_felix_idle/s_felix_idle.yy",},"order":7,},
     {"id":{"name":"s_ralph_movedown_01","path":"sprites/s_ralph_movedown_01/s_ralph_movedown_01.yy",},"order":0,},
     {"id":{"name":"check_collision","path":"scripts/check_collision/check_collision.yy",},"order":5,},
@@ -15,6 +16,7 @@
     {"id":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"order":1,},
     {"id":{"name":"check_state","path":"scripts/check_state/check_state.yy",},"order":6,},
     {"id":{"name":"s_ff3menu","path":"sprites/s_ff3menu/s_ff3menu.yy",},"order":0,},
+    {"id":{"name":"arcade_font","path":"fonts/arcade_font/arcade_font.yy",},"order":0,},
     {"id":{"name":"o_swingstage","path":"objects/o_swingstage/o_swingstage.yy",},"order":4,},
     {"id":{"name":"s_ropesegment","path":"sprites/s_ropesegment/s_ropesegment.yy",},"order":4,},
     {"id":{"name":"s_ralph_swingleft","path":"sprites/s_ralph_swingleft/s_ralph_swingleft.yy",},"order":3,},
