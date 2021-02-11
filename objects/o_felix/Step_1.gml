@@ -51,13 +51,13 @@ if ((l24A80C76_0 > 0))
 		/// @DnDParent : 0CDCBD36
 		/// @DnDArgument : "expr" "rider.y - 3"
 		/// @DnDArgument : "expr_1" "true"
-		/// @DnDArgument : "expr_2" "rider.vsp"
+		/// @DnDArgument : "expr_2" "rider.speed"
 		/// @DnDArgument : "var" "y"
 		/// @DnDArgument : "var_1" "on_swing"
 		/// @DnDArgument : "var_2" "vsp"
 		y = rider.y - 3;
 		on_swing = true;
-		vsp = rider.vsp;
+		vsp = rider.speed;
 	}
 }
 
