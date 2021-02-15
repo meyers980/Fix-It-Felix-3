@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"s_swingstage","path":"sprites/s_swingstage/s_swingstage.yy",},"order":6,},
+    {"id":{"name":"s_swingstage_stopped","path":"sprites/s_swingstage_stopped/s_swingstage_stopped.yy",},"order":6,},
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},"order":3,},
     {"id":{"name":"o_admin_obj","path":"objects/o_admin_obj/o_admin_obj.yy",},"order":6,},
     {"id":{"name":"s_felix_idle","path":"sprites/s_felix_idle/s_felix_idle.yy",},"order":7,},
@@ -8,6 +8,7 @@
     {"id":{"name":"check_collision","path":"scripts/check_collision/check_collision.yy",},"order":5,},
     {"id":{"name":"o_ralph","path":"objects/o_ralph/o_ralph.yy",},"order":0,},
     {"id":{"name":"s_ropesegment2up","path":"sprites/s_ropesegment2up/s_ropesegment2up.yy",},"order":5,},
+    {"id":{"name":"s_swingstage_go","path":"sprites/s_swingstage_go/s_swingstage_go.yy",},"order":10,},
     {"id":{"name":"s_solid","path":"sprites/s_solid/s_solid.yy",},"order":3,},
     {"id":{"name":"o_felix","path":"objects/o_felix/o_felix.yy",},"order":5,},
     {"id":{"name":"check_facing","path":"scripts/check_facing/check_facing.yy",},"order":4,},
