@@ -25,7 +25,7 @@ if ((l5196E85C_0 > 0))
 	/// @DnDVersion : 1
 	/// @DnDHash : 0336D355
 	/// @DnDParent : 5196E85C
-	/// @DnDArgument : "value" "s_ralph_swingleft"
+	/// @DnDArgument : "value" "s_ralph_swingright"
 	/// @DnDArgument : "instvar" "10"
-	sprite_index = s_ralph_swingleft;
+	sprite_index = s_ralph_swingright;
 }

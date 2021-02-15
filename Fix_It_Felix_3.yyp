@@ -25,6 +25,7 @@
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":2,},
     {"id":{"name":"o_solidswing","path":"objects/o_solidswing/o_solidswing.yy",},"order":9,},
     {"id":{"name":"s_ralph_idle","path":"sprites/s_ralph_idle/s_ralph_idle.yy",},"order":2,},
+    {"id":{"name":"s_ralph_swingright","path":"sprites/s_ralph_swingright/s_ralph_swingright.yy",},"order":4,},
     {"id":{"name":"check_ground","path":"scripts/check_ground/check_ground.yy",},"order":1,},
     {"id":{"name":"s_hammer_key","path":"sprites/s_hammer_key/s_hammer_key.yy",},"order":8,},
     {"id":{"name":"t_ff3menu","path":"tilesets/t_ff3menu/t_ff3menu.yy",},"order":0,},
