@@ -27,6 +27,7 @@
     {"isDnD":true,"eventNum":70,"eventType":9,"collisionObjectId":null,"parent":{"name":"o_ralph","path":"objects/o_ralph/o_ralph.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":71,"eventType":9,"collisionObjectId":null,"parent":{"name":"o_ralph","path":"objects/o_ralph/o_ralph.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":82,"eventType":9,"collisionObjectId":null,"parent":{"name":"o_ralph","path":"objects/o_ralph/o_ralph.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":79,"eventType":9,"collisionObjectId":null,"parent":{"name":"o_ralph","path":"objects/o_ralph/o_ralph.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
