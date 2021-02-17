@@ -2,19 +2,19 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 3F4BF394
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "32"
+/// @DnDArgument : "y" "40"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "o_solidswing"
 /// @DnDSaveInfo : "object" "o_solidswing"
-var l3F4BF394_0 = instance_place(x + 0, y + 32, o_solidswing);
+var l3F4BF394_0 = instance_place(x + 0, y + 40, o_solidswing);
 if ((l3F4BF394_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 520A4202
 	/// @DnDParent : 3F4BF394
-	/// @DnDArgument : "speed" ".5"
-	speed = .5;
+	/// @DnDArgument : "speed" ".4"
+	speed = .4;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1

@@ -23,6 +23,7 @@
     {"id":{"name":"s_ff3menu","path":"sprites/s_ff3menu/s_ff3menu.yy",},"order":0,},
     {"id":{"name":"arcade_font","path":"fonts/arcade_font/arcade_font.yy",},"order":0,},
     {"id":{"name":"o_swingstage","path":"objects/o_swingstage/o_swingstage.yy",},"order":4,},
+    {"id":{"name":"o_brickpile","path":"objects/o_brickpile/o_brickpile.yy",},"order":10,},
     {"id":{"name":"s_ropesegment","path":"sprites/s_ropesegment/s_ropesegment.yy",},"order":4,},
     {"id":{"name":"s_ralph_swingleft","path":"sprites/s_ralph_swingleft/s_ralph_swingleft.yy",},"order":3,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":2,},
@@ -31,6 +32,7 @@
     {"id":{"name":"s_ralph_idle","path":"sprites/s_ralph_idle/s_ralph_idle.yy",},"order":2,},
     {"id":{"name":"s_ralph_swingright","path":"sprites/s_ralph_swingright/s_ralph_swingright.yy",},"order":4,},
     {"id":{"name":"check_ground","path":"scripts/check_ground/check_ground.yy",},"order":1,},
+    {"id":{"name":"s_brick","path":"sprites/s_brick/s_brick.yy",},"order":0,},
     {"id":{"name":"s_hammer_key","path":"sprites/s_hammer_key/s_hammer_key.yy",},"order":8,},
     {"id":{"name":"t_ff3menu","path":"tilesets/t_ff3menu/t_ff3menu.yy",},"order":0,},
     {"id":{"name":"s_dk3fullscreen","path":"sprites/s_dk3fullscreen/s_dk3fullscreen.yy",},"order":1,},
@@ -70,6 +72,7 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/ralphs.yy","order":2,"resourceVersion":"1.0","name":"ralphs","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/enemies.yy","order":12,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
