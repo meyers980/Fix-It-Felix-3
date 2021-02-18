@@ -20,6 +20,7 @@
     {"id":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"order":1,},
     {"id":{"name":"check_state","path":"scripts/check_state/check_state.yy",},"order":6,},
     {"id":{"name":"o_hammer_key","path":"objects/o_hammer_key/o_hammer_key.yy",},"order":7,},
+    {"id":{"name":"get_input_ralph","path":"scripts/get_input_ralph/get_input_ralph.yy",},"order":8,},
     {"id":{"name":"s_ff3menu","path":"sprites/s_ff3menu/s_ff3menu.yy",},"order":0,},
     {"id":{"name":"arcade_font","path":"fonts/arcade_font/arcade_font.yy",},"order":0,},
     {"id":{"name":"o_swingstage","path":"objects/o_swingstage/o_swingstage.yy",},"order":4,},
