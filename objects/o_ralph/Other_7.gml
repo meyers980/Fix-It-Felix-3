@@ -5,7 +5,8 @@
 /// @DnDArgument : "instvar" "10"
 sprite_index = s_ralph_idle;
 
-/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 273B6346
+/// @DnDHash : 70017081
+/// @DnDArgument : "var" "speed"
 speed = 0;
