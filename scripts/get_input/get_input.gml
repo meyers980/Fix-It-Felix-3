@@ -93,6 +93,67 @@ function get_input()
 			vsp = -2;
 		}
 	}
+
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	/// @DnDVersion : 1
+	/// @DnDHash : 3E060854
+	/// @DnDParent : 1390961C
+	/// @DnDArgument : "key" "vk_alt"
+	var l3E060854_0;
+	l3E060854_0 = keyboard_check_pressed(vk_alt);
+	if (l3E060854_0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
+		/// @DnDVersion : 1
+		/// @DnDHash : 7DF4312F
+		/// @DnDParent : 3E060854
+		/// @DnDArgument : "var" "hammer_count"
+		/// @DnDArgument : "object" "o_hammer"
+		/// @DnDSaveInfo : "object" "o_hammer"
+		hammer_count = instance_number(o_hammer);
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 3ED8E5CC
+		/// @DnDParent : 3E060854
+		/// @DnDArgument : "var" "hammer_count"
+		/// @DnDArgument : "op" "1"
+		/// @DnDArgument : "value" "5"
+		if(hammer_count < 5)
+		{
+			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 50E8453E
+			/// @DnDParent : 3ED8E5CC
+			/// @DnDArgument : "xpos" "6 * facing"
+			/// @DnDArgument : "xpos_relative" "1"
+			/// @DnDArgument : "ypos" "-18"
+			/// @DnDArgument : "ypos_relative" "1"
+			/// @DnDArgument : "var" "created_hammer"
+			/// @DnDArgument : "objectid" "o_hammer"
+			/// @DnDSaveInfo : "objectid" "o_hammer"
+			created_hammer = instance_create_layer(x + 6 * facing, y + -18, "Instances", o_hammer);
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6EA59C38
+			/// @DnDInput : 3
+			/// @DnDApplyTo : created_hammer
+			/// @DnDParent : 3ED8E5CC
+			/// @DnDArgument : "expr" "other.facing"
+			/// @DnDArgument : "expr_1" "-2 + (.5 * other.vsp)"
+			/// @DnDArgument : "expr_2" "1.1 * facing"
+			/// @DnDArgument : "var" "facing"
+			/// @DnDArgument : "var_1" "vsp"
+			/// @DnDArgument : "var_2" "hsp"
+			with(created_hammer) {
+			facing = other.facing;
+			vsp = -2 + (.5 * other.vsp);
+			hsp = 1.1 * facing;
+			
+			}
+		}
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.Function

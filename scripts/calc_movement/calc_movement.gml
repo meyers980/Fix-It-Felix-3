@@ -27,8 +27,8 @@ function calc_movement()
 	/// @DnDParent : 5A79B919
 	/// @DnDArgument : "var" "abs(hsp)"
 	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "0.2"
-	if(abs(hsp) < 0.2)
+	/// @DnDArgument : "value" "0.1"
+	if(abs(hsp) < 0.1)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
