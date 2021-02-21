@@ -3,12 +3,12 @@
 /// @DnDHash : 6D03C88E
 /// @DnDApplyTo : other
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "-24"
+/// @DnDArgument : "y" "-35"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "o_solidswing"
 /// @DnDSaveInfo : "object" "o_solidswing"
 with(other) {
-var l6D03C88E_0 = instance_place(x + 0, y + -24, o_solidswing);
+var l6D03C88E_0 = instance_place(x + 0, y + -35, o_solidswing);
 }
 if ((l6D03C88E_0 > 0))
 {

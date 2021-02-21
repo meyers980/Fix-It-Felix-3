@@ -137,11 +137,11 @@ function calc_movement_ralph()
 		/// @DnDHash : 57D6EDE3
 		/// @DnDParent : 1F389472
 		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y" "-1"
+		/// @DnDArgument : "y" "-35"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "object" "o_solidswing"
 		/// @DnDSaveInfo : "object" "o_solidswing"
-		var l57D6EDE3_0 = instance_place(x + 0, y + -1, o_solidswing);
+		var l57D6EDE3_0 = instance_place(x + 0, y + -35, o_solidswing);
 		if ((l57D6EDE3_0 > 0))
 		{
 			/// @DnDAction : YoYo Games.Movement.Set_Speed
