@@ -9,7 +9,7 @@
     "name": "s_felix_idle",
     "path": "sprites/s_felix_idle/s_felix_idle.yy",
   },
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
     "name": "o_entity",
     "path": "objects/o_entity/o_entity.yy",
