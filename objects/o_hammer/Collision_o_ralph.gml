@@ -15,11 +15,19 @@ if ((l6D03C88E_0 > 0))
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3DD2546C
+	/// @DnDInput : 2
+	/// @DnDApplyTo : other
 	/// @DnDParent : 6D03C88E
 	/// @DnDArgument : "expr" "-2"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "other.y"
-	other.y += -2;
+	/// @DnDArgument : "expr_1" "10"
+	/// @DnDArgument : "var" "y"
+	/// @DnDArgument : "var_1" "alarm[11]"
+	with(other) {
+	y += -2;
+	alarm[11] = 10;
+	
+	}
 }
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance

@@ -12,6 +12,6 @@ draw_sprite_ext(sprite_index, image_index, x + 0, y + 0, 1, 1, 0, $FFFFFF & $fff
 /// @DnDHash : 50DAA28B
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" "state"
-/// @DnDArgument : "var" "mood"
-draw_text(x + 0, y + 0, string(state) + string(mood));
+/// @DnDArgument : "caption" "mood"
+/// @DnDArgument : "var" "alarm[11]"
+draw_text(x + 0, y + 0, string(mood) + string(alarm[11]));
