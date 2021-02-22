@@ -73,12 +73,12 @@ function check_mood()
 	/// @DnDArgument : "y1_relative" "1"
 	/// @DnDArgument : "x2" "4"
 	/// @DnDArgument : "x2_relative" "1"
-	/// @DnDArgument : "y2" "-48"
+	/// @DnDArgument : "y2" "-62"
 	/// @DnDArgument : "y2_relative" "1"
 	/// @DnDArgument : "obj" "o_felix"
 	/// @DnDArgument : "shape" "1"
 	/// @DnDSaveInfo : "obj" "o_felix"
-	var l615F5A3D_0 = collision_rectangle(x + -4, y + -6, x + 4, y + -48, o_felix, true, 1);
+	var l615F5A3D_0 = collision_rectangle(x + -4, y + -6, x + 4, y + -62, o_felix, true, 1);
 	if((l615F5A3D_0))
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
