@@ -57,6 +57,7 @@
     {"id":{"name":"s_dk3fullscreen","path":"sprites/s_dk3fullscreen/s_dk3fullscreen.yy",},"order":1,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":3,},
     {"id":{"name":"s_ralph_moveup_04","path":"sprites/s_ralph_moveup_04/s_ralph_moveup_04.yy",},"order":17,},
+    {"id":{"name":"s_duck_walk","path":"sprites/s_duck_walk/s_duck_walk.yy",},"order":1,},
     {"id":{"name":"Room01","path":"rooms/Room01/Room01.yy",},"order":0,},
   ],
   "Options": [
