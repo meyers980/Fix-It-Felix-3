@@ -1,12 +1,9 @@
-/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 22BA01C0
-/// @DnDApplyTo : {o_ralph}
-/// @DnDArgument : "value" "s_ralphattacks_left"
-/// @DnDArgument : "instvar" "10"
-with(o_ralph) {
-sprite_index = s_ralphattacks_left;
-}
+/// @DnDHash : 755ADFF4
+/// @DnDArgument : "expr" "r.ATTACKLEFT"
+/// @DnDArgument : "var" "o_ralph.state"
+o_ralph.state = r.ATTACKLEFT;
 
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1

@@ -5,6 +5,14 @@
 /// @DnDArgument : "funcName" "check_mood"
 function check_mood() 
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7B8C80EA
+	/// @DnDParent : 6A038D5E
+	/// @DnDArgument : "expr" "ralph.MAD"
+	/// @DnDArgument : "var" "mood"
+	mood = ralph.MAD;
+
 	/// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 08BA35D5
@@ -55,6 +63,33 @@ function check_mood()
 		mood = ralph.SCAREDRIGHT;
 	}
 
+	/// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 615F5A3D
+	/// @DnDParent : 6A038D5E
+	/// @DnDArgument : "x1" "-4"
+	/// @DnDArgument : "x1_relative" "1"
+	/// @DnDArgument : "y1" "-6"
+	/// @DnDArgument : "y1_relative" "1"
+	/// @DnDArgument : "x2" "4"
+	/// @DnDArgument : "x2_relative" "1"
+	/// @DnDArgument : "y2" "-48"
+	/// @DnDArgument : "y2_relative" "1"
+	/// @DnDArgument : "obj" "o_felix"
+	/// @DnDArgument : "shape" "1"
+	/// @DnDSaveInfo : "obj" "o_felix"
+	var l615F5A3D_0 = collision_rectangle(x + -4, y + -6, x + 4, y + -48, o_felix, true, 1);
+	if((l615F5A3D_0))
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 74A6C881
+		/// @DnDParent : 615F5A3D
+		/// @DnDArgument : "expr" "ralph.SURPRISE"
+		/// @DnDArgument : "var" "mood"
+		mood = ralph.SURPRISE;
+	}
+
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 79550D1E
@@ -88,20 +123,5 @@ function check_mood()
 		/// @DnDArgument : "expr" "ralph.SAD"
 		/// @DnDArgument : "var" "mood"
 		mood = ralph.SAD;
-	}
-
-	/// @DnDAction : YoYo Games.Common.Else
-	/// @DnDVersion : 1
-	/// @DnDHash : 39A94D20
-	/// @DnDParent : 6A038D5E
-	else
-	{
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 7B8C80EA
-		/// @DnDParent : 39A94D20
-		/// @DnDArgument : "expr" "ralph.MAD"
-		/// @DnDArgument : "var" "mood"
-		mood = ralph.MAD;
 	}
 }
