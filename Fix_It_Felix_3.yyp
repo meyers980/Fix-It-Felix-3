@@ -41,6 +41,7 @@
     {"id":{"name":"o_brickpile","path":"objects/o_brickpile/o_brickpile.yy",},"order":10,},
     {"id":{"name":"s_ropesegment","path":"sprites/s_ropesegment/s_ropesegment.yy",},"order":4,},
     {"id":{"name":"s_ralph_swingleft","path":"sprites/s_ralph_swingleft/s_ralph_swingleft.yy",},"order":3,},
+    {"id":{"name":"o_duck_creator","path":"objects/o_duck_creator/o_duck_creator.yy",},"order":13,},
     {"id":{"name":"s_ralph_moveup_05","path":"sprites/s_ralph_moveup_05/s_ralph_moveup_05.yy",},"order":11,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":2,},
     {"id":{"name":"o_hammer","path":"objects/o_hammer/o_hammer.yy",},"order":11,},

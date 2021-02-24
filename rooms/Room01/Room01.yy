@@ -21,7 +21,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"o_hammer_key","path":"objects/o_hammer_key/o_hammer_key.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":144.0,"resourceVersion":"1.0","name":"inst_6FD61A33","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_hammer_key","path":"objects/o_hammer_key/o_hammer_key.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":176.0,"y":192.0,"resourceVersion":"1.0","name":"inst_4BCA4F46","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_hammer_key","path":"objects/o_hammer_key/o_hammer_key.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":144.0,"resourceVersion":"1.0","name":"inst_2D882A86","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_duck","path":"objects/o_duck/o_duck.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":120.0,"resourceVersion":"1.0","name":"inst_4C540C19","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_duck_creator","path":"objects/o_duck_creator/o_duck_creator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":240.0,"y":200.0,"resourceVersion":"1.0","name":"inst_2CC31478","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_Front","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_ralph","path":"objects/o_ralph/o_ralph.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":112.0,"y":88.0,"resourceVersion":"1.0","name":"inst_3B110C6F","tags":[],"resourceType":"GMRInstance",},
@@ -114,6 +114,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
+    {"name":"inst_2CC31478","path":"rooms/Room01/Room01.yy",},
     {"name":"inst_3B110C6F","path":"rooms/Room01/Room01.yy",},
     {"name":"inst_1745FB53","path":"rooms/Room01/Room01.yy",},
     {"name":"inst_28B5319C","path":"rooms/Room01/Room01.yy",},
@@ -133,7 +134,6 @@
     {"name":"inst_49D0625A","path":"rooms/Room01/Room01.yy",},
     {"name":"inst_7CCEF4CF","path":"rooms/Room01/Room01.yy",},
     {"name":"inst_4B711852","path":"rooms/Room01/Room01.yy",},
-    {"name":"inst_4C540C19","path":"rooms/Room01/Room01.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
