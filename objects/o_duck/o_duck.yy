@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_duck_side",
-    "path": "sprites/s_duck_side/s_duck_side.yy",
+    "name": "s_duck_idle",
+    "path": "sprites/s_duck_idle/s_duck_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,9 +31,9 @@
   ],
   "properties": [
     {"varType":0,"value":"s_duck_idle","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_idle","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"s_duck_up","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_air","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"s_duck_up","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_up","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_duck_diag","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_diag","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"s_duck_side","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_walk","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"s_duck_side","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_side","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"walk_spd","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"facing","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"facing_vert","tags":[],"resourceType":"GMObjectProperty",},
