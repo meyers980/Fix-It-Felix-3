@@ -23,10 +23,9 @@ if(global.coins < 2)
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 7BC11B27
+	/// @DnDDisabled : 1
 	/// @DnDParent : 51E27D04
 	/// @DnDArgument : "soundid" "sfx_coin1"
-	/// @DnDSaveInfo : "soundid" "sfx_coin1"
-	audio_play_sound(sfx_coin1, 0, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -43,8 +42,7 @@ else
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 783ED637
+	/// @DnDDisabled : 1
 	/// @DnDParent : 556700DC
 	/// @DnDArgument : "soundid" "sfx_coin2"
-	/// @DnDSaveInfo : "soundid" "sfx_coin2"
-	audio_play_sound(sfx_coin2, 0, 0);
 }
