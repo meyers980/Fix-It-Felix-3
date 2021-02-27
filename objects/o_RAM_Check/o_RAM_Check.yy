@@ -23,6 +23,7 @@
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_RAM_Check","path":"objects/o_RAM_Check/o_RAM_Check.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_RAM_Check","path":"objects/o_RAM_Check/o_RAM_Check.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_RAM_Check","path":"objects/o_RAM_Check/o_RAM_Check.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

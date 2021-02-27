@@ -44,6 +44,33 @@ ini_open("settings.ini");
 /// @DnDArgument : "default" ""false""
 savescores = ini_read_string("Settings", "Savescores", "false");
 
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 2D255D2C
+/// @DnDArgument : "var" "fullscreen"
+/// @DnDArgument : "section" ""Settings""
+/// @DnDArgument : "key" ""Fullscreen""
+/// @DnDArgument : "default" ""false""
+fullscreen = ini_read_string("Settings", "Fullscreen", "false");
+
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 09E4473B
+/// @DnDArgument : "var" "hresolution"
+/// @DnDArgument : "section" ""Settings""
+/// @DnDArgument : "key" ""Hresolution""
+/// @DnDArgument : "default" "224"
+hresolution = ini_read_string("Settings", "Hresolution", 224);
+
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 12E26433
+/// @DnDArgument : "var" "vresolution"
+/// @DnDArgument : "section" ""Settings""
+/// @DnDArgument : "key" ""Vresolution""
+/// @DnDArgument : "default" "256"
+vresolution = ini_read_string("Settings", "Vresolution", 256);
+
 /// @DnDAction : YoYo Games.Files.Close_Ini
 /// @DnDVersion : 1
 /// @DnDHash : 05DF8DF7
@@ -102,4 +129,40 @@ else
 		highscore_add("JJE", 2000);
 		highscore_add("BOB", 1000);
 	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3E9983F4
+/// @DnDArgument : "var" "fullscreen"
+/// @DnDArgument : "value" ""true""
+if(fullscreen == "true")
+{
+	/// @DnDAction : YoYo Games.Miscellaneous.Set_Window_State
+	/// @DnDVersion : 1
+	/// @DnDHash : 29B8EC56
+	/// @DnDParent : 3E9983F4
+	/// @DnDArgument : "type" "2"
+	window_set_fullscreen(true);
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 042167B5
+else
+{
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 73003356
+	/// @DnDParent : 042167B5
+	/// @DnDArgument : "code" "window_set_size(hresolution, vresolution);"
+	window_set_size(hresolution, vresolution);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 4E2F9DA4
+	/// @DnDParent : 042167B5
+	/// @DnDArgument : "steps" "2"
+	/// @DnDArgument : "alarm" "1"
+	alarm_set(1, 2);
 }
