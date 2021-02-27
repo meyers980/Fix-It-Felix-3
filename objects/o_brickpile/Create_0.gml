@@ -3,8 +3,8 @@
 /// @DnDHash : 44E6156E
 /// @DnDArgument : "var" "x"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "224"
-if(x < 224)
+/// @DnDArgument : "value" "o_ralph.x"
+if(x < o_ralph.x)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

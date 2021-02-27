@@ -358,12 +358,13 @@ function calc_movement_ralph()
 		/// @DnDVersion : 1
 		/// @DnDHash : 22262105
 		/// @DnDParent : 0EC61B1C
+		/// @DnDArgument : "xpos" "-20"
+		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos" "1"
-		/// @DnDArgument : "var" "left_brick"
 		/// @DnDArgument : "objectid" "o_brickpile"
 		/// @DnDArgument : "layer" ""Instances_Front""
 		/// @DnDSaveInfo : "objectid" "o_brickpile"
-		left_brick = instance_create_layer(0, 1, "Instances_Front", o_brickpile);
+		instance_create_layer(x + -20, 1, "Instances_Front", o_brickpile);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
@@ -386,13 +387,13 @@ function calc_movement_ralph()
 		/// @DnDVersion : 1
 		/// @DnDHash : 00F3C276
 		/// @DnDParent : 282B6838
-		/// @DnDArgument : "xpos" "224"
+		/// @DnDArgument : "xpos" "20"
+		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos" "1"
-		/// @DnDArgument : "var" "right_brick"
 		/// @DnDArgument : "objectid" "o_brickpile"
 		/// @DnDArgument : "layer" ""Instances_Front""
 		/// @DnDSaveInfo : "objectid" "o_brickpile"
-		right_brick = instance_create_layer(224, 1, "Instances_Front", o_brickpile);
+		instance_create_layer(x + 20, 1, "Instances_Front", o_brickpile);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
