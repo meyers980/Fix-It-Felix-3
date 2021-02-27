@@ -25,19 +25,22 @@ anim_ralph();
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0E8BB6BB
-/// @DnDInput : 5
+/// @DnDInput : 6
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "expr_1" "false"
 /// @DnDArgument : "expr_2" "false"
 /// @DnDArgument : "expr_3" "false"
 /// @DnDArgument : "expr_4" "false"
+/// @DnDArgument : "expr_5" "false"
 /// @DnDArgument : "var" "up_move"
 /// @DnDArgument : "var_1" "down_move"
 /// @DnDArgument : "var_2" "left_move"
 /// @DnDArgument : "var_3" "right_move"
 /// @DnDArgument : "var_4" "attack_left"
+/// @DnDArgument : "var_5" "attack_right"
 up_move = false;
 down_move = false;
 left_move = false;
 right_move = false;
 attack_left = false;
+attack_right = false;

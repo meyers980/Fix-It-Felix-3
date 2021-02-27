@@ -16,14 +16,15 @@ function get_input_ralph()
 		/// @DnDAction : YoYo Games.Random.Choose
 		/// @DnDVersion : 1
 		/// @DnDHash : 10B7EF8F
-		/// @DnDInput : 5
+		/// @DnDInput : 6
 		/// @DnDParent : 14B8C296
 		/// @DnDArgument : "var" "ralph_decision"
 		/// @DnDArgument : "option_1" "1"
 		/// @DnDArgument : "option_2" "2"
 		/// @DnDArgument : "option_3" "3"
 		/// @DnDArgument : "option_4" "4"
-		ralph_decision = choose(0, 1, 2, 3, 4);
+		/// @DnDArgument : "option_5" "5"
+		ralph_decision = choose(0, 1, 2, 3, 4, 5);
 	
 		/// @DnDAction : YoYo Games.Switch.Switch
 		/// @DnDVersion : 1
@@ -105,6 +106,21 @@ function get_input_ralph()
 				/// @DnDArgument : "expr" "true"
 				/// @DnDArgument : "var" "attack_left"
 				attack_left = true;
+				break;
+		
+			/// @DnDAction : YoYo Games.Switch.Case
+			/// @DnDVersion : 1
+			/// @DnDHash : 330D8662
+			/// @DnDParent : 54353061
+			/// @DnDArgument : "const" "5"
+			case 5:
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3EA69931
+				/// @DnDParent : 330D8662
+				/// @DnDArgument : "expr" "true"
+				/// @DnDArgument : "var" "attack_right"
+				attack_right = true;
 				break;
 		}
 	}
@@ -342,17 +358,46 @@ function calc_movement_ralph()
 		/// @DnDVersion : 1
 		/// @DnDHash : 22262105
 		/// @DnDParent : 0EC61B1C
-		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos" "1"
+		/// @DnDArgument : "var" "left_brick"
 		/// @DnDArgument : "objectid" "o_brickpile"
 		/// @DnDArgument : "layer" ""Instances_Front""
 		/// @DnDSaveInfo : "objectid" "o_brickpile"
-		instance_create_layer(x + 0, 1, "Instances_Front", o_brickpile);
+		left_brick = instance_create_layer(0, 1, "Instances_Front", o_brickpile);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 4FC43BB9
 		/// @DnDParent : 0EC61B1C
+		/// @DnDArgument : "steps" "180"
+		/// @DnDArgument : "alarm" "10"
+		alarm_set(10, 180);
+	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 282B6838
+	/// @DnDParent : 79852F65
+	/// @DnDArgument : "var" "attack_right"
+	/// @DnDArgument : "value" "true"
+	if(attack_right == true)
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 00F3C276
+		/// @DnDParent : 282B6838
+		/// @DnDArgument : "xpos" "224"
+		/// @DnDArgument : "ypos" "1"
+		/// @DnDArgument : "var" "right_brick"
+		/// @DnDArgument : "objectid" "o_brickpile"
+		/// @DnDArgument : "layer" ""Instances_Front""
+		/// @DnDSaveInfo : "objectid" "o_brickpile"
+		right_brick = instance_create_layer(224, 1, "Instances_Front", o_brickpile);
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 4CA2563F
+		/// @DnDParent : 282B6838
 		/// @DnDArgument : "steps" "180"
 		/// @DnDArgument : "alarm" "10"
 		alarm_set(10, 180);
