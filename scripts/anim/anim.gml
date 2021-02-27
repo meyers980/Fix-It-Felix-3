@@ -511,5 +511,35 @@ function anim_duck()
 			/// @DnDArgument : "instvar" "10"
 			sprite_index = spr_diag;
 			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 2C1A73B8
+		/// @DnDParent : 4AFF0884
+		/// @DnDArgument : "const" "es.STUN"
+		case es.STUN:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 0166610A
+			/// @DnDParent : 2C1A73B8
+			/// @DnDArgument : "value" "spr_stun"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = spr_stun;
+			break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 79EFCFCE
+		/// @DnDParent : 4AFF0884
+		/// @DnDArgument : "const" "es.DEAD"
+		case es.DEAD:
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 19836E24
+			/// @DnDParent : 79EFCFCE
+			/// @DnDArgument : "value" "spr_dead"
+			/// @DnDArgument : "instvar" "10"
+			sprite_index = spr_dead;
+			break;
 	}
 }
