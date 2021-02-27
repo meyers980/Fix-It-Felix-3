@@ -43,6 +43,7 @@
     {"id":{"name":"o_lock","path":"objects/o_lock/o_lock.yy",},"order":14,},
     {"id":{"name":"check_mood","path":"scripts/check_mood/check_mood.yy",},"order":9,},
     {"id":{"name":"s_ralph_movedown_05","path":"sprites/s_ralph_movedown_05/s_ralph_movedown_05.yy",},"order":10,},
+    {"id":{"name":"r_p1start","path":"rooms/r_p1start/r_p1start.yy",},"order":3,},
     {"id":{"name":"o_swingstage","path":"objects/o_swingstage/o_swingstage.yy",},"order":4,},
     {"id":{"name":"o_brickpile","path":"objects/o_brickpile/o_brickpile.yy",},"order":10,},
     {"id":{"name":"s_ropesegment","path":"sprites/s_ropesegment/s_ropesegment.yy",},"order":4,},
@@ -58,6 +59,7 @@
     {"id":{"name":"s_ralph_idle_01","path":"sprites/s_ralph_idle_01/s_ralph_idle_01.yy",},"order":2,},
     {"id":{"name":"s_ralph_swingright","path":"sprites/s_ralph_swingright/s_ralph_swingright.yy",},"order":4,},
     {"id":{"name":"check_ground","path":"scripts/check_ground/check_ground.yy",},"order":1,},
+    {"id":{"name":"r_p2start","path":"rooms/r_p2start/r_p2start.yy",},"order":4,},
     {"id":{"name":"s_brick","path":"sprites/s_brick/s_brick.yy",},"order":0,},
     {"id":{"name":"s_ralph_movedown_04","path":"sprites/s_ralph_movedown_04/s_ralph_movedown_04.yy",},"order":16,},
     {"id":{"name":"s_hammer","path":"sprites/s_hammer/s_hammer.yy",},"order":13,},
@@ -90,6 +92,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"r_ram","path":"rooms/r_ram/r_ram.yy",},},
     {"roomId":{"name":"r_coin","path":"rooms/r_coin/r_coin.yy",},},
+    {"roomId":{"name":"r_p1start","path":"rooms/r_p1start/r_p1start.yy",},},
+    {"roomId":{"name":"r_p2start","path":"rooms/r_p2start/r_p2start.yy",},},
     {"roomId":{"name":"r_room01","path":"rooms/r_room01/r_room01.yy",},},
   ],
   "Folders": [

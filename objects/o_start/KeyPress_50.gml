@@ -9,18 +9,23 @@ if(global.coins > 1)
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 23BBFE2D
-	/// @DnDInput : 3
+	/// @DnDInput : 5
 	/// @DnDParent : 00008C66
 	/// @DnDArgument : "value" "-2"
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "value_1" "2"
 	/// @DnDArgument : "value_2" "1"
+	/// @DnDArgument : "value_4" "global.playerlives"
 	/// @DnDArgument : "var" "coins"
 	/// @DnDArgument : "var_1" "numberofplayers"
-	/// @DnDArgument : "var_2" "level"
+	/// @DnDArgument : "var_2" "p2_level"
+	/// @DnDArgument : "var_3" "p2_score"
+	/// @DnDArgument : "var_4" "p2_lives"
 	global.coins += -2;
 	global.numberofplayers = 2;
-	global.level = 1;
+	global.p2_level = 1;
+	global.p2_score = 0;
+	global.p2_lives = global.playerlives;
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
