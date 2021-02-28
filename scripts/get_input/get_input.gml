@@ -118,9 +118,25 @@ function get_input()
 		/// @DnDParent : 3E060854
 		/// @DnDArgument : "var" "hammer_count"
 		/// @DnDArgument : "op" "1"
-		/// @DnDArgument : "value" "5"
-		if(hammer_count < 5)
+		/// @DnDArgument : "value" "3"
+		if(hammer_count < 3)
 		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6A8567FD
+			/// @DnDParent : 3ED8E5CC
+			/// @DnDArgument : "expr" "true"
+			/// @DnDArgument : "var" "attack"
+			attack = true;
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDVersion : 1
+			/// @DnDHash : 4FE19ECB
+			/// @DnDParent : 3ED8E5CC
+			/// @DnDArgument : "steps" "15"
+			/// @DnDArgument : "alarm" "10"
+			alarm_set(10, 15);
+		
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
 			/// @DnDHash : 50E8453E
