@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Script13",
+  "name": "calc_damage_felix",
   "tags": [],
   "resourceType": "GMScript",
 }
