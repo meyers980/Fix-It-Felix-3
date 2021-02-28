@@ -34,10 +34,11 @@
     {"varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"control","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_felix_idle","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_idle","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_felix_walk","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_walk","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"s_felix_idle","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_air","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"s_felix_air","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_air","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_felix_idle","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_dead","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_felix_attack_idle","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_attack_idle","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"s_felix_attack_walk","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_attack_walk","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"s_felix_attack_air","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_attack_air","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

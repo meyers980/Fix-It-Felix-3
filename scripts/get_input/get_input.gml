@@ -141,14 +141,14 @@ function get_input()
 			/// @DnDVersion : 1
 			/// @DnDHash : 50E8453E
 			/// @DnDParent : 3ED8E5CC
-			/// @DnDArgument : "xpos" "6 * facing"
+			/// @DnDArgument : "xpos" "10 * facing"
 			/// @DnDArgument : "xpos_relative" "1"
-			/// @DnDArgument : "ypos" "-18"
+			/// @DnDArgument : "ypos" "-22"
 			/// @DnDArgument : "ypos_relative" "1"
 			/// @DnDArgument : "var" "created_hammer"
 			/// @DnDArgument : "objectid" "o_hammer"
 			/// @DnDSaveInfo : "objectid" "o_hammer"
-			created_hammer = instance_create_layer(x + 6 * facing, y + -18, "Instances", o_hammer);
+			created_hammer = instance_create_layer(x + 10 * facing, y + -22, "Instances", o_hammer);
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
