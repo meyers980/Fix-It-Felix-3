@@ -65,6 +65,15 @@ hresolution = ini_read_string("Settings", "Hresolution", 224);
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
 /// @DnDHash : 12E26433
+/// @DnDArgument : "var" "global.changetitle"
+/// @DnDArgument : "section" ""Settings""
+/// @DnDArgument : "key" ""Change_Title""
+/// @DnDArgument : "default" ""false""
+global.changetitle = ini_read_string("Settings", "Change_Title", "false");
+
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 68C1EAF8
 /// @DnDArgument : "var" "vresolution"
 /// @DnDArgument : "section" ""Settings""
 /// @DnDArgument : "key" ""Vresolution""

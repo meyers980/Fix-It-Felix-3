@@ -26,6 +26,18 @@ if(state == es.STUN)
 	/// @DnDArgument : "var" "state"
 	state = es.DEAD;
 
+	/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+	/// @DnDVersion : 1
+	/// @DnDHash : 7E43B4C4
+	/// @DnDApplyTo : {o_felix}
+	/// @DnDParent : 469DD65D
+	/// @DnDArgument : "score" "250"
+	/// @DnDArgument : "score_relative" "1"
+	with(o_felix) {
+	if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
+	__dnd_score += real(250);
+	}
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1F8EDF19

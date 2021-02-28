@@ -16,3 +16,10 @@ __dnd_health = real(0);
 /// @DnDHash : 2BA6A491
 
 __dnd_score = real(0);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7555AB9B
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "level"
+level = 1;
