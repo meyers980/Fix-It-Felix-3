@@ -231,9 +231,8 @@ function check_gameover()
 		/// @DnDHash : 11EB529D
 		/// @DnDParent : 79F67677
 		/// @DnDArgument : "op" "2"
-		/// @DnDArgument : "value" "-1"
 		if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-		if(__dnd_lives > -1)
+		if(__dnd_lives > 0)
 		{
 			/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 			/// @DnDVersion : 1
