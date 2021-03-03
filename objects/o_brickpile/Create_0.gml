@@ -25,8 +25,8 @@ if(x < o_ralph.x)
 	/// @DnDVersion : 1
 	/// @DnDHash : 51289863
 	/// @DnDParent : 44E6156E
-	/// @DnDArgument : "speed" "3"
-	speed = 3;
+	/// @DnDArgument : "speed" "2.5"
+	speed = 2.5;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 	/// @DnDVersion : 1

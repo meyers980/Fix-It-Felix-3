@@ -8,8 +8,8 @@ o_ralph.state = r.ATTACKLEFT;
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 04E8A14D
-/// @DnDArgument : "speed" "3"
-speed = 3;
+/// @DnDArgument : "speed" "2.5"
+speed = 2.5;
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
