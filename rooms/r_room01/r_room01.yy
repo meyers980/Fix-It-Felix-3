@@ -1,5 +1,5 @@
 {
-  "isDnd": false,
+  "isDnd": true,
   "volume": 1.0,
   "parentRoom": null,
   "views": [
@@ -71,8 +71,8 @@
 0,0,524,0,0,525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,524,0,0,525,0,0,
 0,0,524,0,0,525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,524,0,0,525,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-1632,1633,1634,1635,1636,1637,1638,1636,1637,1638,1636,1637,1638,1636,1638,1636,1637,1638,1636,1637,1638,268437094,268437093,268437092,268437091,268437090,268437089,268437088,
-1760,1761,1762,1763,1764,2147483648,1766,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,268437222,2147483648,2147483648,268437219,268437218,268437217,268437216,
+1632,1633,1634,1635,1636,1637,1638,1636,1637,1638,1636,326,327,328,329,330,331,1638,1636,1637,1638,268437094,268437093,268437092,268437091,268437090,268437089,268437088,
+1760,1761,1762,1763,1764,2147483648,1766,2147483648,2147483648,2147483648,2147483648,390,391,392,393,394,395,2147483648,2147483648,2147483648,2147483648,268437222,2147483648,2147483648,268437219,268437218,268437217,268437216,
 ],},"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tiles_1","tags":[],"resourceType":"GMRTileLayer",},
     {"tilesetId":{"name":"t_ff3menu","path":"tilesets/t_ff3menu/t_ff3menu.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":28,"SerialiseHeight":32,"TileSerialiseData":[
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -111,7 +111,7 @@
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/r_room01/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_2CC31478","path":"rooms/r_room01/r_room01.yy",},

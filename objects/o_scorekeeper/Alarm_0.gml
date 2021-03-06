@@ -21,6 +21,12 @@ if(key_count <= 0)
 	/// @DnDArgument : "function" "destroy_enemies"
 	destroy_enemies();
 
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 568019EB
+	/// @DnDParent : 6BD3F1F5
+	audio_stop_all();
+
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 5A50E929

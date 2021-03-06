@@ -5,6 +5,12 @@
 /// @DnDArgument : "funcName" "check_gameover"
 function check_gameover() 
 {
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 577B191E
+	/// @DnDParent : 0CA0E161
+	audio_stop_all();
+
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 1366857D

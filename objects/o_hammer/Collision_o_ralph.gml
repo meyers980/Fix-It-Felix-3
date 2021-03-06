@@ -30,6 +30,13 @@ if ((l6D03C88E_0 > 0))
 	}
 }
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 7B187272
+/// @DnDArgument : "soundid" "sfx_hitbyhammer"
+/// @DnDSaveInfo : "soundid" "sfx_hitbyhammer"
+audio_play_sound(sfx_hitbyhammer, 0, 0);
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 54F27BAE
