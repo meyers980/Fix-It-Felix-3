@@ -1,6 +1,6 @@
 {
-  "compression": 0,
-  "volume": 1.0,
+  "compression": 1,
+  "volume": 0.75,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bgm_00.mp3",
-  "duration": 30.4115,
+  "soundFile": "bgm_00.wav",
+  "duration": 99.845,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
