@@ -19,36 +19,16 @@ hsp = facing * 3;
 /// @DnDSaveInfo : "object" "o_hammer"
 var hammer_count = instance_number(o_hammer);
 
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
 /// @DnDVersion : 1
-/// @DnDHash : 007671A0
-/// @DnDArgument : "var" "hammer_count"
-/// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "2"
-if(hammer_count <= 2)
-{
-	/// @DnDAction : YoYo Games.Audio.Play_Audio
-	/// @DnDVersion : 1
-	/// @DnDHash : 0CD9BAE0
-	/// @DnDParent : 007671A0
-	/// @DnDArgument : "soundid" "sfx_throw00"
-	/// @DnDSaveInfo : "soundid" "sfx_throw00"
-	audio_play_sound(sfx_throw00, 0, 0);
-}
+/// @DnDHash : 7980E145
+/// @DnDArgument : "soundid" "sfx_hammerpower"
+/// @DnDSaveInfo : "soundid" "sfx_hammerpower"
+audio_stop_sound(sfx_hammerpower);
 
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
-/// @DnDHash : 143AF2E8
-/// @DnDArgument : "var" "hammer_count"
-/// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "3"
-if(hammer_count >= 3)
-{
-	/// @DnDAction : YoYo Games.Audio.Play_Audio
-	/// @DnDVersion : 1
-	/// @DnDHash : 1F3EFA51
-	/// @DnDParent : 143AF2E8
-	/// @DnDArgument : "soundid" "sfx_throw02"
-	/// @DnDSaveInfo : "soundid" "sfx_throw02"
-	audio_play_sound(sfx_throw02, 0, 0);
-}
+/// @DnDHash : 1F3EFA51
+/// @DnDArgument : "soundid" "sfx_hammerpower"
+/// @DnDSaveInfo : "soundid" "sfx_hammerpower"
+audio_play_sound(sfx_hammerpower, 0, 0);
