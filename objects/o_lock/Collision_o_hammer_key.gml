@@ -10,9 +10,10 @@ image_index = 1;
 /// @DnDHash : 66AADF6F
 /// @DnDApplyTo : {o_felix}
 /// @DnDArgument : "score" "750"
+/// @DnDArgument : "score_relative" "1"
 with(o_felix) {
-
-__dnd_score = real(750);
+if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
+__dnd_score += real(750);
 }
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio

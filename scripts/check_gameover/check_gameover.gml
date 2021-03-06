@@ -1,20 +1,19 @@
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
-/// @DnDHash : 0CA0E161
-/// @DnDComment : // Script assets have changed for v2.3.0 see$(13_10)// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/// @DnDHash : 33314BB0
 /// @DnDArgument : "funcName" "check_gameover"
 function check_gameover() 
 {
 	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 577B191E
-	/// @DnDParent : 0CA0E161
+	/// @DnDParent : 33314BB0
 	audio_stop_all();
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 1366857D
-	/// @DnDParent : 0CA0E161
+	/// @DnDParent : 33314BB0
 	/// @DnDArgument : "var" "global.numberofplayers"
 	/// @DnDArgument : "value" "2"
 	if(global.numberofplayers == 2)
@@ -229,7 +228,7 @@ function check_gameover()
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
 	/// @DnDHash : 79F67677
-	/// @DnDParent : 0CA0E161
+	/// @DnDParent : 33314BB0
 	else
 	{
 		/// @DnDAction : YoYo Games.Instance Variables.If_Lives
@@ -257,7 +256,7 @@ function check_gameover()
 			/// @DnDArgument : "expr" "__dnd_lives"
 			/// @DnDArgument : "expr_1" "__dnd_score"
 			/// @DnDArgument : "expr_2" "level"
-			/// @DnDArgument : "expr_3" "2"
+			/// @DnDArgument : "expr_3" "1"
 			/// @DnDArgument : "expr_4" "room"
 			/// @DnDArgument : "var" "global.p1_lives"
 			/// @DnDArgument : "var_1" "global.p1_score"
@@ -267,7 +266,7 @@ function check_gameover()
 			global.p1_lives = __dnd_lives;
 			global.p1_score = __dnd_score;
 			global.p1_level = level;
-			global.turn = 2;
+			global.turn = 1;
 			global.p1_room = room;
 		
 			/// @DnDAction : YoYo Games.Movement.Jump_To_Point

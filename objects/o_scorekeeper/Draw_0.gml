@@ -110,3 +110,12 @@ if(global.numberofplayers == 2)
 		draw_text(176, -2,  + string(string_format(global.p2_score, 6, 0)));
 	}
 }
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 14D95AFC
+/// @DnDArgument : "x" "96"
+/// @DnDArgument : "y" "247"
+/// @DnDArgument : "caption" ""
+/// @DnDArgument : "var" "(alarm[11] div 100) * 100"
+draw_text(96, 247,  + string((alarm[11] div 100) * 100));
