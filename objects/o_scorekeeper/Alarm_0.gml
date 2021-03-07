@@ -42,6 +42,14 @@ if(key_count <= 0)
 	/// @DnDHash : 568019EB
 	/// @DnDParent : 6BD3F1F5
 	audio_stop_all();
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 5364B44D
+	/// @DnDParent : 6BD3F1F5
+	/// @DnDArgument : "soundid" "sfx_levelclear"
+	/// @DnDSaveInfo : "soundid" "sfx_levelclear"
+	audio_play_sound(sfx_levelclear, 0, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -53,6 +61,5 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 0BDC6E49
 	/// @DnDParent : 7C19E313
-	/// @DnDArgument : "steps" "60"
-	alarm_set(0, 60);
+	alarm_set(0, 30);
 }

@@ -50,6 +50,12 @@ function calc_damage_felix()
 		with(o_felix) var l0E98E422_0 = __dnd_lives > 0;
 		if(l0E98E422_0)
 		{
+			/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+			/// @DnDVersion : 1
+			/// @DnDHash : 063AF520
+			/// @DnDParent : 0E98E422
+			audio_stop_all();
+		
 			/// @DnDAction : YoYo Games.Audio.Play_Audio
 			/// @DnDVersion : 1
 			/// @DnDHash : 65D11D81
@@ -65,6 +71,12 @@ function calc_damage_felix()
 		/// @DnDParent : 72A9F5F8
 		else
 		{
+			/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+			/// @DnDVersion : 1
+			/// @DnDHash : 341445E9
+			/// @DnDParent : 3CF23C08
+			audio_stop_all();
+		
 			/// @DnDAction : YoYo Games.Audio.Play_Audio
 			/// @DnDVersion : 1
 			/// @DnDHash : 1E80A2F2
