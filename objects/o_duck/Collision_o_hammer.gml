@@ -38,6 +38,14 @@ if(state == es.STUN)
 	__dnd_score += real(250);
 	}
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 585F6073
+	/// @DnDParent : 469DD65D
+	/// @DnDArgument : "soundid" "sfx_duckdying"
+	/// @DnDSaveInfo : "soundid" "sfx_duckdying"
+	audio_play_sound(sfx_duckdying, 0, 0);
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1F8EDF19
@@ -61,6 +69,14 @@ if(!(state == es.DEAD))
 	/// @DnDArgument : "expr" "es.STUN"
 	/// @DnDArgument : "var" "state"
 	state = es.STUN;
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 09E9EAB7
+	/// @DnDParent : 2D388448
+	/// @DnDArgument : "soundid" "sfx_duck_stun"
+	/// @DnDSaveInfo : "soundid" "sfx_duck_stun"
+	audio_play_sound(sfx_duck_stun, 0, 0);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
