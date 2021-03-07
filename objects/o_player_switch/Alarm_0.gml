@@ -34,6 +34,20 @@ if(room_get_name(room) == "r_p1start")
 	
 	}
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2A8A48C5
+	/// @DnDInput : 2
+	/// @DnDApplyTo : {o_felix}
+	/// @DnDParent : 53A0629E
+	/// @DnDArgument : "var" "hsp"
+	/// @DnDArgument : "var_1" "vsp"
+	with(o_felix) {
+	hsp = 0;
+	vsp = 0;
+	
+	}
+
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Start
 	/// @DnDVersion : 1
 	/// @DnDHash : 6EAA081D
@@ -78,6 +92,20 @@ if(room_get_name(room) == "r_p2start")
 	__dnd_score = global.p2_score;
 	level = global.p2_level;
 	state = ps.IDLE;
+	
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6C8B2177
+	/// @DnDInput : 2
+	/// @DnDApplyTo : {o_felix}
+	/// @DnDParent : 15F61E81
+	/// @DnDArgument : "var" "hsp"
+	/// @DnDArgument : "var_1" "vsp"
+	with(o_felix) {
+	hsp = 0;
+	vsp = 0;
 	
 	}
 
