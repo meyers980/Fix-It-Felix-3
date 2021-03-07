@@ -1,2 +1,5 @@
+Beta 0.1
+Multiple enemy types inserted, Ralph mostly complete, movement complete, and start/mid game cycle complete. Needs end-of-game logic and slightly better enemy AI but then it's ready for testing.
+
 Pre-Alpha
 Still setting up most movement and gameplay elements

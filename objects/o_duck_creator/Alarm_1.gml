@@ -46,8 +46,8 @@ alarm_set(1, irandom(360));
 /// @DnDHash : 586BD773
 /// @DnDArgument : "var" "create_brick"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "20"
-if(create_brick > 20)
+/// @DnDArgument : "value" "24"
+if(create_brick > 24)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
