@@ -75,6 +75,7 @@
     {"id":{"name":"s_lives","path":"sprites/s_lives/s_lives.yy",},"order":16,},
     {"id":{"name":"s_felix_air","path":"sprites/s_felix_air/s_felix_air.yy",},"order":5,},
     {"id":{"name":"o_solidswing","path":"objects/o_solidswing/o_solidswing.yy",},"order":9,},
+    {"id":{"name":"sfx_coin","path":"sounds/sfx_coin/sfx_coin.yy",},"order":13,},
     {"id":{"name":"sfx_swingmoving","path":"sounds/sfx_swingmoving/sfx_swingmoving.yy",},"order":7,},
     {"id":{"name":"sfx_steps","path":"sounds/sfx_steps/sfx_steps.yy",},"order":8,},
     {"id":{"name":"anim","path":"scripts/anim/anim.yy",},"order":7,},
