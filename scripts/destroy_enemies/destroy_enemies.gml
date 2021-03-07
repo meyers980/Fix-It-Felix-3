@@ -7,6 +7,13 @@ function destroy_enemies()
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
+	/// @DnDHash : 792328F2
+	/// @DnDApplyTo : {o_duck_creator}
+	/// @DnDParent : 4892DB3B
+	with(o_duck_creator) instance_destroy();
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
 	/// @DnDHash : 2FF7C0E5
 	/// @DnDApplyTo : {o_duck}
 	/// @DnDParent : 4892DB3B
@@ -28,15 +35,8 @@ function destroy_enemies()
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 792328F2
-	/// @DnDApplyTo : {o_duck_creator}
+	/// @DnDHash : 7D2D0302
+	/// @DnDApplyTo : {o_brick}
 	/// @DnDParent : 4892DB3B
-	with(o_duck_creator) instance_destroy();
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 5FBEA554
-	/// @DnDApplyTo : {o_ralph}
-	/// @DnDParent : 4892DB3B
-	with(o_ralph) instance_destroy();
+	with(o_brick) instance_destroy();
 }
