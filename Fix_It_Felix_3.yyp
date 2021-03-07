@@ -19,6 +19,7 @@
     {"id":{"name":"s_ralph_idle_00","path":"sprites/s_ralph_idle_00/s_ralph_idle_00.yy",},"order":7,},
     {"id":{"name":"calc_damage_felix","path":"scripts/calc_damage_felix/calc_damage_felix.yy",},"order":12,},
     {"id":{"name":"s_brickpile","path":"sprites/s_brickpile/s_brickpile.yy",},"order":11,},
+    {"id":{"name":"o_brick","path":"objects/o_brick/o_brick.yy",},"order":1,},
     {"id":{"name":"s_felix_gameover","path":"sprites/s_felix_gameover/s_felix_gameover.yy",},"order":7,},
     {"id":{"name":"s_duck_up","path":"sprites/s_duck_up/s_duck_up.yy",},"order":2,},
     {"id":{"name":"sfx_felixjump","path":"sounds/sfx_felixjump/sfx_felixjump.yy",},"order":4,},

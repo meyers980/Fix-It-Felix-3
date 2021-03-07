@@ -20,6 +20,7 @@
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_duck_creator","path":"objects/o_duck_creator/o_duck_creator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_duck_creator","path":"objects/o_duck_creator/o_duck_creator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_duck_creator","path":"objects/o_duck_creator/o_duck_creator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
