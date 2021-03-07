@@ -40,6 +40,7 @@
     {"id":{"name":"check_jump","path":"scripts/check_jump/check_jump.yy",},"order":2,},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},"order":0,},
     {"id":{"name":"s_ralph_moveup_02","path":"sprites/s_ralph_moveup_02/s_ralph_moveup_02.yy",},"order":21,},
+    {"id":{"name":"bgm_02","path":"sounds/bgm_02/bgm_02.yy",},"order":18,},
     {"id":{"name":"s_solidswing","path":"sprites/s_solidswing/s_solidswing.yy",},"order":9,},
     {"id":{"name":"sfx_keytolock","path":"sounds/sfx_keytolock/sfx_keytolock.yy",},"order":6,},
     {"id":{"name":"sfx_felixhit","path":"sounds/sfx_felixhit/sfx_felixhit.yy",},"order":3,},
@@ -99,6 +100,7 @@
     {"id":{"name":"sfx_hitbyhammer","path":"sounds/sfx_hitbyhammer/sfx_hitbyhammer.yy",},"order":9,},
     {"id":{"name":"sfx_duckdying","path":"sounds/sfx_duckdying/sfx_duckdying.yy",},"order":15,},
     {"id":{"name":"s_hammer_key","path":"sprites/s_hammer_key/s_hammer_key.yy",},"order":8,},
+    {"id":{"name":"r_room03","path":"rooms/r_room03/r_room03.yy",},"order":6,},
     {"id":{"name":"s_ralph_idle_04","path":"sprites/s_ralph_idle_04/s_ralph_idle_04.yy",},"order":18,},
     {"id":{"name":"r_room02","path":"rooms/r_room02/r_room02.yy",},"order":5,},
     {"id":{"name":"r_ram","path":"rooms/r_ram/r_ram.yy",},"order":1,},
@@ -133,6 +135,7 @@
     {"roomId":{"name":"r_p2start","path":"rooms/r_p2start/r_p2start.yy",},},
     {"roomId":{"name":"r_room01","path":"rooms/r_room01/r_room01.yy",},},
     {"roomId":{"name":"r_room02","path":"rooms/r_room02/r_room02.yy",},},
+    {"roomId":{"name":"r_room03","path":"rooms/r_room03/r_room03.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

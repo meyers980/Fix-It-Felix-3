@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 35B82DB8
 /// @DnDArgument : "var" "room_get_name(room)"
-/// @DnDArgument : "value" ""r_room02""
-if(room_get_name(room) == "r_room02")
+/// @DnDArgument : "value" ""r_room03""
+if(room_get_name(room) == "r_room03")
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
