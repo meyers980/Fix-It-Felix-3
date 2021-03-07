@@ -13,8 +13,8 @@ if(global.turn == 1)
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "min" "global.p1_level"
-	/// @DnDArgument : "max" "25"
-	var create_duck = floor(random_range(global.p1_level, 25 + 1));
+	/// @DnDArgument : "max" "35"
+	var create_duck = floor(random_range(global.p1_level, 35 + 1));
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -30,8 +30,8 @@ else
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "min" "global.p2_level"
-	/// @DnDArgument : "max" "25"
-	var create_duck = floor(random_range(global.p2_level, 25 + 1));
+	/// @DnDArgument : "max" "35"
+	var create_duck = floor(random_range(global.p2_level, 35 + 1));
 }
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
@@ -45,8 +45,8 @@ alarm_set(0, irandom(360));
 /// @DnDHash : 0781FC4E
 /// @DnDArgument : "var" "create_duck"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "15"
-if(create_duck > 15)
+/// @DnDArgument : "value" "25"
+if(create_duck > 25)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

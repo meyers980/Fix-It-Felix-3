@@ -8,14 +8,18 @@ if(room_get_name(room) == "r_room02")
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 31933AC3
-	/// @DnDInput : 2
+	/// @DnDInput : 3
 	/// @DnDApplyTo : {o_felix}
 	/// @DnDParent : 35B82DB8
+	/// @DnDArgument : "expr_2" "1"
+	/// @DnDArgument : "expr_relative_2" "1"
 	/// @DnDArgument : "var" "hsp"
 	/// @DnDArgument : "var_1" "vsp"
+	/// @DnDArgument : "var_2" "level"
 	with(o_felix) {
 	hsp = 0;
 	vsp = 0;
+	level += 1;
 	
 	}
 
@@ -46,14 +50,18 @@ else
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 4EECCCC4
-	/// @DnDInput : 2
+	/// @DnDInput : 3
 	/// @DnDApplyTo : {o_felix}
 	/// @DnDParent : 5AF52DE1
+	/// @DnDArgument : "expr_2" "1"
+	/// @DnDArgument : "expr_relative_2" "1"
 	/// @DnDArgument : "var" "hsp"
 	/// @DnDArgument : "var_1" "vsp"
+	/// @DnDArgument : "var_2" "level"
 	with(o_felix) {
 	hsp = 0;
 	vsp = 0;
+	level += 1;
 	
 	}
 

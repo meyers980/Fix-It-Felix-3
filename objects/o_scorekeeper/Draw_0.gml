@@ -119,3 +119,13 @@ if(global.numberofplayers == 2)
 /// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "(alarm[11] div 100) * 100"
 draw_text(96, 247,  + string((alarm[11] div 100) * 100));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 7F21E015
+/// @DnDApplyTo : {o_felix}
+/// @DnDArgument : "x" "184"
+/// @DnDArgument : "y" "247"
+/// @DnDArgument : "caption" ""L""
+/// @DnDArgument : "var" "level"
+with(o_felix) draw_text(184, 247, string("L") + string(level));
