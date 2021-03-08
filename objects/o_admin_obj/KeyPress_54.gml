@@ -6,10 +6,12 @@
 /// @DnDArgument : "var" "coins"
 global.coins += 1;
 
-/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
 /// @DnDVersion : 1
-/// @DnDHash : 5A331B55
-audio_stop_all();
+/// @DnDHash : 2022B7F9
+/// @DnDArgument : "soundid" "sfx_coin"
+/// @DnDSaveInfo : "soundid" "sfx_coin"
+audio_stop_sound(sfx_coin);
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
