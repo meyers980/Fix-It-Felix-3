@@ -13,4 +13,9 @@ Alt - P1 Button 2
 Esc - Quit
 F12 Toggle Fullscreen
 
-You can change controls in settings.ini. To change, find the UTF-8 value for the key you'd like to use (if it's in hex, convert it to decimal). This page shows the decimal values for many keyboard keys. https://docs.yoyogames.com/source/dadiospice/002_reference/game%20assets/fonts/font_tables.html
+Controls: You can change controls in settings.ini. To change, find the UTF-8 value for the key you'd like to use (if it's in hex, convert it to decimal). This page shows the decimal values for many keyboard keys (capital letters). https://docs.yoyogames.com/source/dadiospice/002_reference/game%20assets/fonts/font_tables.html
+Or here (remember to convert the hex value to decimal): https://docs2.yoyogames.com/index.html?page=source%2F_build%2F3_scripting%2F4_gml_reference%2Findex.html
+
+Resolution: You can manually set the game's resolution in settings.ini. It was designed to run at the original arcade vertical resolution of 224x256 but also looks fine at 2x (448x512) or custom resolutions. Game will keep aspect ratio. If you enable fullscreen, resolution will be ignored and instead run at computer's fullscreen mode.
+
+Game Title: The game title can be changed from Fix It Felix 3 to Wreck It Ralph 3 for your cabinet's preference. Set true or false in settings.ini

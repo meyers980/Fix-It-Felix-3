@@ -1,4 +1,7 @@
 Beta 0.1
+A full game cycle is complete. All sounds in, some placeholders for now. Still want to improve Ralph AI, add another type of duck, and add one more level. Testing game difficulty now (which ramps up as game continues). Highscore entry for both player 1 and 2 and properly switching between each.
+
+Beta 0.0.1
 Multiple enemy types inserted, Ralph mostly complete, movement complete, and start/mid game cycle complete. Needs end-of-game logic and slightly better enemy AI but then it's ready for testing.
 
 Pre-Alpha
