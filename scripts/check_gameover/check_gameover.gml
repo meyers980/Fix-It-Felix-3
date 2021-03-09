@@ -293,6 +293,27 @@ function check_gameover()
 		/// @DnDParent : 79F67677
 		else
 		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 4A5A9D9F
+			/// @DnDInput : 5
+			/// @DnDParent : 7B61BB91
+			/// @DnDArgument : "expr" "__dnd_lives"
+			/// @DnDArgument : "expr_1" "__dnd_score"
+			/// @DnDArgument : "expr_2" "level"
+			/// @DnDArgument : "expr_3" "1"
+			/// @DnDArgument : "expr_4" "room"
+			/// @DnDArgument : "var" "global.p1_lives"
+			/// @DnDArgument : "var_1" "global.p1_score"
+			/// @DnDArgument : "var_2" "global.p1_level"
+			/// @DnDArgument : "var_3" "global.turn"
+			/// @DnDArgument : "var_4" "global.p1_room"
+			global.p1_lives = __dnd_lives;
+			global.p1_score = __dnd_score;
+			global.p1_level = level;
+			global.turn = 1;
+			global.p1_room = room;
+		
 			/// @DnDAction : YoYo Games.Common.Function_Call
 			/// @DnDVersion : 1
 			/// @DnDHash : 6A121911
@@ -309,5 +330,68 @@ function check_gameover()
 /// @DnDArgument : "funcName" "calc_gameover"
 function calc_gameover() 
 {
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 5D28D031
+	/// @DnDApplyTo : {o_felix}
+	/// @DnDParent : 1F97443B
+	with(o_felix) instance_destroy();
 
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2007B28E
+	/// @DnDParent : 1F97443B
+	/// @DnDArgument : "var" "global.p1_score"
+	/// @DnDArgument : "op" "2"
+	/// @DnDArgument : "value" "highscore_value(10)"
+	if(global.p1_score > highscore_value(10))
+	{
+		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 64504CDA
+		/// @DnDParent : 2007B28E
+		/// @DnDArgument : "room" "r_p1score_entry"
+		/// @DnDSaveInfo : "room" "r_p1score_entry"
+		room_goto(r_p1score_entry);
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 0B7FEFFA
+	/// @DnDParent : 1F97443B
+	else
+	{
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1B1F246D
+		/// @DnDParent : 0B7FEFFA
+		/// @DnDArgument : "var" "global.p2_score"
+		/// @DnDArgument : "op" "2"
+		/// @DnDArgument : "value" "highscore_value(10)"
+		if(global.p2_score > highscore_value(10))
+		{
+			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+			/// @DnDVersion : 1
+			/// @DnDHash : 745A9932
+			/// @DnDParent : 1B1F246D
+			/// @DnDArgument : "room" "r_p2score_entry"
+			/// @DnDSaveInfo : "room" "r_p2score_entry"
+			room_goto(r_p2score_entry);
+		}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 62C2C7CF
+		/// @DnDParent : 0B7FEFFA
+		else
+		{
+			/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+			/// @DnDVersion : 1
+			/// @DnDHash : 24370E18
+			/// @DnDParent : 62C2C7CF
+			/// @DnDArgument : "room" "r_score_display"
+			/// @DnDSaveInfo : "room" "r_score_display"
+			room_goto(r_score_display);
+		}
+	}
 }

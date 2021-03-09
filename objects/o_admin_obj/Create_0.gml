@@ -131,3 +131,12 @@ draw_set_font(arcade_font);
 /// @DnDHash : 547C845E
 /// @DnDArgument : "alpha" "false"
 draw_set_colour($FFFFFFFF & $ffffff);
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 49CE8AAF
+/// @DnDInput : 2
+/// @DnDArgument : "var" "p1_score"
+/// @DnDArgument : "var_1" "p2_score"
+global.p1_score = 0;
+global.p2_score = 0;

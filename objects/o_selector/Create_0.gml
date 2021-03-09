@@ -29,3 +29,10 @@ tempname_c = "_"
 /// @DnDHash : 056CE17A
 /// @DnDArgument : "steps" "1440"
 alarm_set(0, 1440);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 62E58A40
+/// @DnDArgument : "soundid" "sfx_score_entry"
+/// @DnDSaveInfo : "soundid" "sfx_score_entry"
+audio_play_sound(sfx_score_entry, 0, 0);

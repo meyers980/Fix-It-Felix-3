@@ -33,7 +33,6 @@
     {"isDnD":true,"eventNum":11,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_felix","path":"objects/o_felix/o_felix.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_felix","path":"objects/o_felix/o_felix.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":10,"eventType":2,"collisionObjectId":null,"parent":{"name":"o_felix","path":"objects/o_felix/o_felix.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":87,"eventType":9,"collisionObjectId":null,"parent":{"name":"o_felix","path":"objects/o_felix/o_felix.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"on_swing","tags":[],"resourceType":"GMObjectProperty",},

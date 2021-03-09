@@ -34,5 +34,5 @@ else
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4F7D1B26
-/// @DnDArgument : "code" "draw_highscore(50, 40, 207, 200);"
-draw_highscore(50, 40, 207, 200);
+/// @DnDArgument : "code" "draw_highscore(50, 38, 207, 198);"
+draw_highscore(50, 38, 207, 198);

@@ -33,10 +33,10 @@ function calc_damage_felix()
 		/// @DnDHash : 6D1E8066
 		/// @DnDApplyTo : other
 		/// @DnDParent : 72A9F5F8
-		/// @DnDArgument : "steps" "120"
+		/// @DnDArgument : "steps" "160"
 		/// @DnDArgument : "alarm" "11"
 		with(other) {
-		alarm_set(11, 120);
+		alarm_set(11, 160);
 		
 		}
 	
