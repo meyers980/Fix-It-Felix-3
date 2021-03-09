@@ -15,11 +15,17 @@ alphabet_position = 1;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5BAC68DD
-/// @DnDArgument : "code" "alphabet="abcdefghijklmnopqrstuvwxyz.-"$(13_10)index_a = 1$(13_10)index_b = 1$(13_10)index_c = 1$(13_10)tempname_a = "a"$(13_10)tempname_b = "a"$(13_10)tempname_c = "a""
+/// @DnDArgument : "code" "alphabet="abcdefghijklmnopqrstuvwxyz.-"$(13_10)index_a = 1$(13_10)index_b = 1$(13_10)index_c = 1$(13_10)tempname_a = "_"$(13_10)tempname_b = "_"$(13_10)tempname_c = "_""
 alphabet="abcdefghijklmnopqrstuvwxyz.-"
 index_a = 1
 index_b = 1
 index_c = 1
-tempname_a = "a"
-tempname_b = "a"
-tempname_c = "a"
+tempname_a = "_"
+tempname_b = "_"
+tempname_c = "_"
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 056CE17A
+/// @DnDArgument : "steps" "1440"
+alarm_set(0, 1440);
