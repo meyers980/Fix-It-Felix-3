@@ -3,8 +3,8 @@
 /// @DnDHash : 6E174BDB
 /// @DnDArgument : "var" "y"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "15"
-if(y > 15)
+/// @DnDArgument : "value" "24"
+if(y > 24)
 {
 	/// @DnDAction : YoYo Games.Common.Function_Call
 	/// @DnDVersion : 1

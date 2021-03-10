@@ -124,8 +124,8 @@ draw_text(96, 247,  + string((alarm[11] div 100) * 100));
 /// @DnDVersion : 1
 /// @DnDHash : 7F21E015
 /// @DnDApplyTo : {o_felix}
-/// @DnDArgument : "x" "184"
+/// @DnDArgument : "x" "144"
 /// @DnDArgument : "y" "247"
-/// @DnDArgument : "caption" ""L""
-/// @DnDArgument : "var" "level"
-with(o_felix) draw_text(184, 247, string("L") + string(level));
+/// @DnDArgument : "caption" ""LEVEL""
+/// @DnDArgument : "var" "string_format(level, 2, 0)"
+with(o_felix) draw_text(144, 247, string("LEVEL") + string(string_format(level, 2, 0)));
