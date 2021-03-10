@@ -37,9 +37,9 @@ else
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 25135180
-/// @DnDArgument : "steps" "irandom(360)"
+/// @DnDArgument : "steps" "irandom_range(60, 360)"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, irandom(360));
+alarm_set(1, irandom_range(60, 360));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
