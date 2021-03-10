@@ -1,19 +1,19 @@
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
-/// @DnDHash : 33314BB0
+/// @DnDHash : 1E761B4B
 /// @DnDArgument : "funcName" "check_gameover"
 function check_gameover() 
 {
 	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 577B191E
-	/// @DnDParent : 33314BB0
+	/// @DnDParent : 1E761B4B
 	audio_stop_all();
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 1366857D
-	/// @DnDParent : 33314BB0
+	/// @DnDParent : 1E761B4B
 	/// @DnDArgument : "var" "global.numberofplayers"
 	/// @DnDArgument : "value" "2"
 	if(global.numberofplayers == 2)
@@ -228,7 +228,7 @@ function check_gameover()
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
 	/// @DnDHash : 79F67677
-	/// @DnDParent : 33314BB0
+	/// @DnDParent : 1E761B4B
 	else
 	{
 		/// @DnDAction : YoYo Games.Instance Variables.If_Lives
