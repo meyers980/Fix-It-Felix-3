@@ -58,6 +58,24 @@ function check_gameover()
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
+			/// @DnDHash : 770F231C
+			/// @DnDParent : 7CFC4243
+			/// @DnDArgument : "var" "global.p2_lives"
+			/// @DnDArgument : "op" "3"
+			/// @DnDArgument : "value" "-1"
+			if(global.p2_lives <= -1)
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 1E4A24D5
+				/// @DnDParent : 770F231C
+				/// @DnDArgument : "expr" "1"
+				/// @DnDArgument : "var" "global.turn"
+				global.turn = 1;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
 			/// @DnDHash : 35C348DC
 			/// @DnDParent : 7CFC4243
 			/// @DnDArgument : "var" "global.p1_lives + global.p2_lives"
@@ -157,6 +175,24 @@ function check_gameover()
 			global.p2_level = level;
 			global.turn = 1;
 			global.p2_room = room;
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 1DC8DA3A
+			/// @DnDParent : 3829C3C6
+			/// @DnDArgument : "var" "global.p1_lives"
+			/// @DnDArgument : "op" "3"
+			/// @DnDArgument : "value" "-1"
+			if(global.p1_lives <= -1)
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 0F7A0A9D
+				/// @DnDParent : 1DC8DA3A
+				/// @DnDArgument : "expr" "2"
+				/// @DnDArgument : "var" "global.turn"
+				global.turn = 2;
+			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
