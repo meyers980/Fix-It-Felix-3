@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 162B324B
-/// @DnDArgument : "lives" "2"
+/// @DnDArgument : "lives" "global.playerlives"
 
-__dnd_lives = real(2);
+__dnd_lives = real(global.playerlives);
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
