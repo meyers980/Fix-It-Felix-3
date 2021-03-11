@@ -1,3 +1,6 @@
+1.0
+Happier with the difficulty curve now, starts a bit easier before getting hard. Attacking ralph helps more but ralph's AI is also better. Still want to add more duck types.
+
 Beta 0.1
 A full game cycle is complete. All sounds in, some placeholders for now. Still want to improve Ralph AI, add another type of duck, and add one more level. Testing game difficulty now (which ramps up as game continues). Highscore entry for both player 1 and 2 and properly switching between each.
 
