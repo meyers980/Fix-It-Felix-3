@@ -37,17 +37,17 @@ else
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 25135180
-/// @DnDArgument : "steps" "irandom_range(60, 360)"
+/// @DnDArgument : "steps" "irandom_range(60, 420)"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, irandom_range(60, 360));
+alarm_set(1, irandom_range(60, 420));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 586BD773
 /// @DnDArgument : "var" "create_brick"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "24"
-if(create_brick > 24)
+/// @DnDArgument : "value" "25"
+if(create_brick > 25)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1

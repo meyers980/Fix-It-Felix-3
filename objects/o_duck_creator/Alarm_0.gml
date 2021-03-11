@@ -37,16 +37,16 @@ else
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 293EFBA3
-/// @DnDArgument : "steps" "irandom_range(60, 360)"
-alarm_set(0, irandom_range(60, 360));
+/// @DnDArgument : "steps" "irandom_range(60, 420)"
+alarm_set(0, irandom_range(60, 420));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0781FC4E
 /// @DnDArgument : "var" "create_duck"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "25"
-if(create_duck > 25)
+/// @DnDArgument : "value" "27"
+if(create_duck > 27)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

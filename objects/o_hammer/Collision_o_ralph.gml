@@ -15,17 +15,44 @@ if ((l6D03C88E_0 > 0))
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3DD2546C
-	/// @DnDInput : 2
+	/// @DnDInput : 3
 	/// @DnDApplyTo : other
 	/// @DnDParent : 6D03C88E
 	/// @DnDArgument : "expr" "-2"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "expr_1" "10"
+	/// @DnDArgument : "expr_2" "45"
+	/// @DnDArgument : "expr_relative_2" "1"
 	/// @DnDArgument : "var" "y"
 	/// @DnDArgument : "var_1" "alarm[11]"
+	/// @DnDArgument : "var_2" "alarm[10]"
 	with(other) {
 	y += -2;
 	alarm[11] = 10;
+	alarm[10] += 45;
+	
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 361AB0B9
+else
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 446CC01E
+	/// @DnDInput : 2
+	/// @DnDApplyTo : other
+	/// @DnDParent : 361AB0B9
+	/// @DnDArgument : "expr" "10"
+	/// @DnDArgument : "expr_1" "30"
+	/// @DnDArgument : "expr_relative_1" "1"
+	/// @DnDArgument : "var" "alarm[11]"
+	/// @DnDArgument : "var_1" "alarm[10]"
+	with(other) {
+	alarm[11] = 10;
+	alarm[10] += 30;
 	
 	}
 }
