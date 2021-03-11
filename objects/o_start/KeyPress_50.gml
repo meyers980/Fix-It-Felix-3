@@ -44,6 +44,18 @@ if(global.coins > 1)
 	global.p1_room = r_room01;
 	global.p2_room = r_room01;
 
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 1D4633F1
+	/// @DnDInput : 2
+	/// @DnDParent : 00008C66
+	/// @DnDArgument : "value" "false"
+	/// @DnDArgument : "value_1" "false"
+	/// @DnDArgument : "var" "p1_freelife"
+	/// @DnDArgument : "var_1" "p2_freelife"
+	global.p1_freelife = false;
+	global.p2_freelife = false;
+
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 42F3D826
@@ -59,14 +71,6 @@ if(global.coins > 1)
 	/// @DnDHash : 060927DB
 	/// @DnDParent : 00008C66
 	audio_stop_all();
-
-	/// @DnDAction : YoYo Games.Audio.Play_Audio
-	/// @DnDVersion : 1
-	/// @DnDHash : 38090155
-	/// @DnDDisabled : 1
-	/// @DnDParent : 00008C66
-	/// @DnDArgument : "soundid" "sfx_songontrodelayed"
-
 
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
