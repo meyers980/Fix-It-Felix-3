@@ -21,6 +21,16 @@ if(room == r_coin)
 		/// @DnDArgument : "caption" ""CREDIT ""
 		/// @DnDArgument : "var" "string_format(global.coins, 2, 0)"
 		draw_text(144, 240, string("CREDIT ") + string(string_format(global.coins, 2, 0)));
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 0DC87748
+		/// @DnDParent : 55B29453
+		/// @DnDArgument : "x" "144 + 224"
+		/// @DnDArgument : "y" "240"
+		/// @DnDArgument : "caption" ""CREDIT ""
+		/// @DnDArgument : "var" "string_format(global.coins, 2, 0)"
+		draw_text(144 + 224, 240, string("CREDIT ") + string(string_format(global.coins, 2, 0)));
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
@@ -37,5 +47,14 @@ if(room == r_coin)
 		/// @DnDArgument : "y" "240"
 		/// @DnDArgument : "caption" ""FREEPLAY""
 		draw_text(144, 240, string("FREEPLAY") + "");
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 0F39750F
+		/// @DnDParent : 056D4A99
+		/// @DnDArgument : "x" "144 + 224"
+		/// @DnDArgument : "y" "240"
+		/// @DnDArgument : "caption" ""FREEPLAY""
+		draw_text(144 + 224, 240, string("FREEPLAY") + "");
 	}
 }
