@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Fix It felix 3",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "1.0.0.0",
+  "option_windows_version": "1.1.0.0",
   "option_windows_company_info": "Sergio Stuff",
   "option_windows_product_info": "Fix It Felix 3",
   "option_windows_copyright_info": "Sergio Stuff",
