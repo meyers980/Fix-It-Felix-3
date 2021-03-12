@@ -54,6 +54,7 @@
     {"id":{"name":"s_selector","path":"sprites/s_selector/s_selector.yy",},"order":20,},
     {"id":{"name":"o_duck","path":"objects/o_duck/o_duck.yy",},"order":0,},
     {"id":{"name":"r_coin","path":"rooms/r_coin/r_coin.yy",},"order":2,},
+    {"id":{"name":"o_semisolid","path":"objects/o_semisolid/o_semisolid.yy",},"order":23,},
     {"id":{"name":"s_duck_dead","path":"sprites/s_duck_dead/s_duck_dead.yy",},"order":5,},
     {"id":{"name":"check_state","path":"scripts/check_state/check_state.yy",},"order":6,},
     {"id":{"name":"s_ralph_movedown_00","path":"sprites/s_ralph_movedown_00/s_ralph_movedown_00.yy",},"order":8,},
