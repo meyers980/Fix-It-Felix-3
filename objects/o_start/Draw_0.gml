@@ -88,3 +88,9 @@ if(global.coins > 1)
 /// @DnDHash : 3DA15D7A
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 36033CF7
+/// @DnDArgument : "code" "draw_highscore(50 + 448, 38, 207 + 448, 198);"
+draw_highscore(50 + 448, 38, 207 + 448, 198);
