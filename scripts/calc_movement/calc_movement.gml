@@ -10,8 +10,8 @@ function calc_movement()
 	/// @DnDParent : 5A79B919
 	/// @DnDArgument : "var" "vsp"
 	/// @DnDArgument : "op" "3"
-	/// @DnDArgument : "value" "5"
-	if(vsp <= 5)
+	/// @DnDArgument : "value" "4.9"
+	if(vsp <= 4.9)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
