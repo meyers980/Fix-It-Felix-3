@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_steps.wav",
-  "duration": 0.498878,
+  "duration": 0.493878,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

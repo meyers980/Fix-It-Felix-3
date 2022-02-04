@@ -130,7 +130,7 @@ draw_set_font(arcade_font);
 /// @DnDVersion : 1
 /// @DnDHash : 547C845E
 /// @DnDArgument : "alpha" "false"
-draw_set_colour($FFFFFFFF & $ffffff);
+draw_set_colour($FFFFFFFF & $ffffff);draw_set_alpha(1);
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

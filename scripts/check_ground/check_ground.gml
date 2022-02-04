@@ -12,6 +12,7 @@ function check_ground()
 	/// @DnDArgument : "y" "global.grav"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "object" "o_solid"
+	/// @DnDSaveInfo : "object" "o_solid"
 	var l34F79D41_0 = instance_place(x + 0, y + global.grav, o_solid);
 	if ((l34F79D41_0 > 0))
 	{
