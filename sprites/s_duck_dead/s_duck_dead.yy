@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_duck_dead","path":"sprites/s_duck_dead/s_duck_dead.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_duck_dead",
     "tags": [],
     "resourceType": "GMSequence",

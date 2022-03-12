@@ -10,12 +10,10 @@ global.coins += 1;
 /// @DnDVersion : 1
 /// @DnDHash : 6881EA59
 /// @DnDArgument : "soundid" "sfx_coin"
-/// @DnDSaveInfo : "soundid" "sfx_coin"
 audio_stop_sound(sfx_coin);
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 7BC11B27
 /// @DnDArgument : "soundid" "sfx_coin"
-/// @DnDSaveInfo : "soundid" "sfx_coin"
 audio_play_sound(sfx_coin, 0, 0);

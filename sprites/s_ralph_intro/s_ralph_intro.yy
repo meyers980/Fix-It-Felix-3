@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ralph_intro","path":"sprites/s_ralph_intro/s_ralph_intro.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ralph_intro",
     "tags": [],
     "resourceType": "GMSequence",

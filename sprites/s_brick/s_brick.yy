@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_brick","path":"sprites/s_brick/s_brick.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_brick",
     "tags": [],
     "resourceType": "GMSequence",

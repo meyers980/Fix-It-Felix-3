@@ -123,7 +123,6 @@ if(global.playerlives > 5)
 /// @DnDVersion : 1
 /// @DnDHash : 62A4D6F9
 /// @DnDArgument : "font" "arcade_font"
-/// @DnDSaveInfo : "font" "arcade_font"
 draw_set_font(arcade_font);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color

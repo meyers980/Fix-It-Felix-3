@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_duck_idle","path":"sprites/s_duck_idle/s_duck_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_duck_idle",
     "tags": [],
     "resourceType": "GMSequence",

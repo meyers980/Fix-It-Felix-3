@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_selector","path":"sprites/s_selector/s_selector.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_selector",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ropesegment2up","path":"sprites/s_ropesegment2up/s_ropesegment2up.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ropesegment2up",
     "tags": [],
     "resourceType": "GMSequence",

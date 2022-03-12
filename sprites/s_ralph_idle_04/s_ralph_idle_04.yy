@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ralph_idle_04","path":"sprites/s_ralph_idle_04/s_ralph_idle_04.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ralph_idle_04",
     "tags": [],
     "resourceType": "GMSequence",

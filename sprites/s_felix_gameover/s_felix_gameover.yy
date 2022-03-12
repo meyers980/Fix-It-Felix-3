@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_felix_gameover","path":"sprites/s_felix_gameover/s_felix_gameover.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_felix_gameover",
     "tags": [],
     "resourceType": "GMSequence",

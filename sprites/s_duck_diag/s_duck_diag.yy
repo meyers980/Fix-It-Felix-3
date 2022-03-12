@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_duck_diag","path":"sprites/s_duck_diag/s_duck_diag.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_duck_diag",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_dk3fullscreen","path":"sprites/s_dk3fullscreen/s_dk3fullscreen.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_dk3fullscreen",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_swingstage_stopped","path":"sprites/s_swingstage_stopped/s_swingstage_stopped.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_swingstage_stopped",
     "tags": [],
     "resourceType": "GMSequence",

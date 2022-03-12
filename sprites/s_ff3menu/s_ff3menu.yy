@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ff3menu","path":"sprites/s_ff3menu/s_ff3menu.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ff3menu",
     "tags": [],
     "resourceType": "GMSequence",

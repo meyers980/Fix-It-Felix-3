@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_felix_attack_air","path":"sprites/s_felix_attack_air/s_felix_attack_air.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_felix_attack_air",
     "tags": [],
     "resourceType": "GMSequence",

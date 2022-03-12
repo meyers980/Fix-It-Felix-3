@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ralphattacks_right","path":"sprites/s_ralphattacks_right/s_ralphattacks_right.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ralphattacks_right",
     "tags": [],
     "resourceType": "GMSequence",

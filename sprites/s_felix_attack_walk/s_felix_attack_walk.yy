@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_felix_attack_walk","path":"sprites/s_felix_attack_walk/s_felix_attack_walk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_felix_attack_walk",
     "tags": [],
     "resourceType": "GMSequence",

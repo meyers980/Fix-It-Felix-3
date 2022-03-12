@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ralph_moveup_04","path":"sprites/s_ralph_moveup_04/s_ralph_moveup_04.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ralph_moveup_04",
     "tags": [],
     "resourceType": "GMSequence",

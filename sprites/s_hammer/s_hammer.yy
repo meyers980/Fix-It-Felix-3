@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_hammer","path":"sprites/s_hammer/s_hammer.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_hammer",
     "tags": [],
     "resourceType": "GMSequence",

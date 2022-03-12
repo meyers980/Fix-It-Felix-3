@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_duck_stun","path":"sprites/s_duck_stun/s_duck_stun.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_duck_stun",
     "tags": [],
     "resourceType": "GMSequence",

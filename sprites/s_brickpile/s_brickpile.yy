@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_brickpile","path":"sprites/s_brickpile/s_brickpile.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_brickpile",
     "tags": [],
     "resourceType": "GMSequence",

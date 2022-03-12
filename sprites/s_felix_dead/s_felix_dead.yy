@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_felix_dead","path":"sprites/s_felix_dead/s_felix_dead.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_felix_dead",
     "tags": [],
     "resourceType": "GMSequence",

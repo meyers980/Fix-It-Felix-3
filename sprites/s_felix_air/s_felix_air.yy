@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_felix_air","path":"sprites/s_felix_air/s_felix_air.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_felix_air",
     "tags": [],
     "resourceType": "GMSequence",

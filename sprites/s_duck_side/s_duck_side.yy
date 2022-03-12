@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_duck_side","path":"sprites/s_duck_side/s_duck_side.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_duck_side",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_solidswing","path":"sprites/s_solidswing/s_solidswing.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_solidswing",
     "tags": [],
     "resourceType": "GMSequence",

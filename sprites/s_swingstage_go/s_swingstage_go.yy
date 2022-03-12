@@ -142,7 +142,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_swingstage_go","path":"sprites/s_swingstage_go/s_swingstage_go.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_swingstage_go",
     "tags": [],
     "resourceType": "GMSequence",

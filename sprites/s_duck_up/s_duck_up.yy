@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_duck_up","path":"sprites/s_duck_up/s_duck_up.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_duck_up",
     "tags": [],
     "resourceType": "GMSequence",

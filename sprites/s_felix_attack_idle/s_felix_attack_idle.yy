@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_felix_attack_idle","path":"sprites/s_felix_attack_idle/s_felix_attack_idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_felix_attack_idle",
     "tags": [],
     "resourceType": "GMSequence",

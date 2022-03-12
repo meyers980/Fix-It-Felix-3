@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_lock","path":"sprites/s_lock/s_lock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_lock",
     "tags": [],
     "resourceType": "GMSequence",

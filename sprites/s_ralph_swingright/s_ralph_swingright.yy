@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_ralph_swingright","path":"sprites/s_ralph_swingright/s_ralph_swingright.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_ralph_swingright",
     "tags": [],
     "resourceType": "GMSequence",
