@@ -1,12 +1,13 @@
 {
-  "isDnD": true,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+  "$GMScript":"",
+  "%Name":"check_mood",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"check_mood",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "check_mood",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

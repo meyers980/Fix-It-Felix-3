@@ -1,12 +1,13 @@
 {
-  "isDnD": true,
-  "isCompatibility": false,
-  "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+  "$GMScript":"",
+  "%Name":"calc_movement",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"calc_movement",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "calc_movement",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

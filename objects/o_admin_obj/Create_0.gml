@@ -52,6 +52,19 @@ keyboard_set_map(P1_Button2, vk_alt);
 //Exit
 keyboard_set_map(Exit, vk_escape);
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 52C2F861
+/// @DnDInput : 3
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "value_2" "true"
+/// @DnDArgument : "var" "level"
+/// @DnDArgument : "var_1" "coins"
+/// @DnDArgument : "var_2" "blink"
+global.level = 1;
+global.coins = 0;
+global.blink = true;
+
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
 /// @DnDHash : 18E935B4
@@ -123,6 +136,7 @@ if(global.playerlives > 5)
 /// @DnDVersion : 1
 /// @DnDHash : 62A4D6F9
 /// @DnDArgument : "font" "arcade_font"
+/// @DnDSaveInfo : "font" "arcade_font"
 draw_set_font(arcade_font);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color

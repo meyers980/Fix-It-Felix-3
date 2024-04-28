@@ -47,3 +47,10 @@ enum r {
 	ATTACKLEFT,
 	ATTACKRIGHT,
 }
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 44CB3BE9
+/// @DnDArgument : "value" "0.10"
+/// @DnDArgument : "var" "grav"
+global.grav = 0.10;
